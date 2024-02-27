@@ -1,7 +1,8 @@
-FROM python:3.9
+FROM python:3.8-slim-bullseye@sha256:fdaa08f0a9d8dde76a2284dc8ba8f8691e99dcd349b3ab4b83d7ab973a338a73
 WORKDIR /app
+RUN useradd -ms /usr/sbin/nologin runner
 RUN pip install flask requests
 COPY . .
 ENV FLASK_APP=app.py
-RUN ls
+USER runner
 CMD ["flask", "run", "--host=0.0.0.0"]
