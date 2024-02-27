@@ -1,16 +1,33 @@
-version: '3.8'
+version: '3.9'
 services:
- php:
-    build: .
-    hostname: php
-    privileged: false
- nginx:
+  webapp:
     build:
-      context: .
+      context: ./webapp
+      dockerfile: Dockerfile
+    hostname: webapp
+    container_name: webapp
+    privileged: false
+  
+  nginx:
+    build:
+      context: ./nginx
       dockerfile: Dockerfile.nginx
-    hostname: nginx-cache
+    container_name: nginx
+    hostname: nginx
     privileged: false
     ports:
       - "5000:80"
     depends_on:
-      - php
+      - webapp
+  
+  bot:
+    build:
+      context: ./bot
+      dockerfile: Dockerfile.bot
+    container_name: bot
+    hostname: bot
+    privileged: false
+    ports:
+      - "5001:5000"
+    depends_on:
+      - webapp

@@ -86,6 +86,8 @@
         <div class="buttons">
             <a href="register.php" class="btn" style="background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; padding: 10px 20px; text-decoration: none;">Register</a>
             <a href="dashboard.php" class="btn" style="background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; padding: 10px 20px; text-decoration: none;">Dashboard</a>
+            <a href="http://158.220.124.139:30001" class="btn" target="_blank" style="background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; padding: 10px 20px; text-decoration: none;">Bot</a>
+
         </div>
         <div style="text-align: center; margin-top: 20px;">
             <p>Contact me:</p>

