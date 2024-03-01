@@ -14,6 +14,7 @@ docker-compose up --build
 firefox -new-tab http://127.0.0.1:5000/index.php
 ```
 ## Resources 
+- https://gosecure.github.io/presentations/2019-02-26-confoo_mtl/Cache_Me_If_You_Can.pdf
 - http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html
 - https://www.blackhat.com/docs/us-17/wednesday/us-17-Gil-Web-Cache-Deception-Attack-wp.pdf
 - https://book.hacktricks.xyz/pentesting-web/cache-deception#cache-deception
