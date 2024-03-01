@@ -13,3 +13,8 @@ docker-compose up --build
 ```sh 
 firefox -new-tab http://127.0.0.1:5000/index.php
 ```
+## Resources 
+- http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html
+- https://www.blackhat.com/docs/us-17/wednesday/us-17-Gil-Web-Cache-Deception-Attack-wp.pdf
+- https://book.hacktricks.xyz/pentesting-web/cache-deception#cache-deception
+- https://bxmbn.medium.com/how-i-test-for-web-cache-vulnerabilities-tips-and-tricks-9b138da08ff9
