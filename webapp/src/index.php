@@ -80,8 +80,8 @@
             To learn more about Web Cache Deception and how to prevent it, you can refer to the following resources:
         </p>
         <ul>
-            <li><a href="https://www.blackhat.com/docs/us-17/wednesday/us-17-Gil-Web-Cache-Deception-Attack-wp.pdf" target="_blank" style="color: #007bff; text-decoration: none;">PortSwigger - Web Cache Deception</a></li>
-            <li><a href="http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html" target="_blank" style="color: #007bff; text-decoration: none;">OWASP - Testing for Cache Management</a></li>
+            <li><a href="https://www.blackhat.com/docs/us-17/wednesday/us-17-Gil-Web-Cache-Deception-Attack-wp.pdf" target="_blank" style="color: #007bff; text-decoration: none;">Blackhat - Web Cache Deception</a></li>
+            <li><a href="http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html" target="_blank" style="color: #007bff; text-decoration: none;">omergil - web-cache-deception-attack</a></li>
         </ul>
         <div class="buttons">
             <a href="register.php" class="btn" style="background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; padding: 10px 20px; text-decoration: none;">Register</a>
